@@ -7,23 +7,24 @@ body {
   max-width: 980px;
 }
 button {   
-  background-color: #4CAF50;   
+  background-color: #a9a9a9;   
   width: 100%;  
    color: orange;   
    padding: 15px;   
-   margin: 10px 0px;   
-   border: none;   
+   margin: 10px 0px; 
+   border: none;  
+   border-radius: 15px;   
    cursor: pointer;   
 }
 form {
-  border: 3px solid #f1f1f1
+    border: 3px solid #f1f1f1
 } 
 input[type=text], input[type=password] {   
   width: 100%;   
   margin: 8px 0;  
   padding: 12px 20px;   
   display: inline-block;   
-  border: 2px solid green;   
+  border: 2px solid #a9a9a9;   
   box-sizing: border-box;   
 }  
 button:hover {   
@@ -36,5 +37,5 @@ button:hover {
 }
 .wrapper {
   padding: 25px;
-  background-color:#add8e6;
+  background: color #d3d3d3;
 }
